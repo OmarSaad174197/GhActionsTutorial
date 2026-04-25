@@ -8,6 +8,7 @@ on:
 jobs:
   example-job:
     runs-on: ubuntu-latest
+    
     steps:
       - name: print a welcome message
       run: echo "Welcome to our first GitHub Actions Workflow!"
